@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 
 //gatsby 는 이름은 신경쓰지 않는다.
 export default function AboutUs() {
@@ -10,3 +11,4 @@ export default function AboutUs() {
     );
 }
 
+export const Head = () => <Seo title="About us" />;
